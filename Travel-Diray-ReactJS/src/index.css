@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-shadow:2px 2px 5px black;
+    border-radius: 20px;
+    background-color:cornsilk;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.header-container{
+    height: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: hsl(0, 97%, 65%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.globe-image{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.Entry-container{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-bottom: 20px;
+    width: 1000px;
+}
+
+.place-image{
+    border-radius: 10px;
+    height: 250px;
+    width: 200px;
+}
+
+.location-png{
+    height: 20px;
+    margin-left: 10px;    
+}
+
+.info-line{
+    margin-top: 45px;
+    display: flex;
+}
+
+.place-name{
+    margin-top: 3px;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.google-map-link{
+    margin-top: 3px;
+    margin-left: 15px;
+    color: gray;
+}
+
+.destination{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 13px;
+    margin-bottom: 20px;
+
+}
+
+.date{
+    font-size: 1rem;
+    margin-left: 13px;
+    font-weight: bold;
+    font-family:monospace;
+}
+
+.description{
+    font-weight:300;
+    color: gray;
+    margin-top: 5px;
+    margin-left: 13px;
+}
