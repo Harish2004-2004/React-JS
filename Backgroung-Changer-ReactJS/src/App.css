@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    padding-bottom:30px;
+    padding-top: 30px;
+    column-gap: 20px;
+}
+
+.button-container{
+    padding: 25px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    border-radius: 20px;
+}
+
+.buttons button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.red-button{
+    background-color: red;
+}
+
+.green-button{
+    background-color: green;
+}
+
+.blue-button{
+    background-color: blue;
+}
+
+.violet-button{
+    background-color: violet;
+}
